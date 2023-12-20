@@ -5,7 +5,7 @@ This is a final project from Dicoding in the "Belajar Analisis Data Dengan Pytho
 
 ## 📝 Analysis with Jupyter Notebook
 
-🚧 See the detail of this analysis and visualization on the [notebook](C:\Users\andhika\Documents\GitHub\assets\analisis-data\New folder\Bike_Sharing_Data Analysis.ipynb) 🚧
+🚧 See the detail of this analysis and visualization on the [notebook](https://github.com/RendyAdiyana/Bike-Sharing/blob/main/Bike_Sharing_Data%20Analysis.ipynb) 🚧
 
 notebook.ipynb
 Download this project.
