@@ -1,11 +1,10 @@
 # Bike-Sharing
 This is a final project from Dicoding in the "Belajar Analisis Data Dengan Python" course to make analysis and create a dashboard from the bike sharing dataset. In the notebook file, I attached the way I did the analysis from Data Wrangling, Exploratory Data Analysis, and Data Visualization.
 
-# 🚲 Capital Bikeshare: Bikesharing Analysis and Dashboard
 
-## 📝 Analysis with Jupyter Notebook
+## Analysis with Jupyter Notebook
 
-🚧 See the detail of this analysis and visualization on the [notebook](https://github.com/RendyAdiyana/Bike-Sharing/blob/main/Bike_Sharing_Data%20Analysis.ipynb) 🚧
+Keseluruhan Detail dan juga Hasil pekerjaan dapat dilihat pada [notebook](https://github.com/RendyAdiyana/Bike-Sharing/blob/main/Bike_Sharing_Data%20Analysis.ipynb) 🚧
 
 notebook.ipynb
 Download this project.
@@ -29,7 +28,7 @@ Lastly, run the code cells.
 4. Terdapat korelasi antara suhu dan jumlah perjalanan bikeshare dimana seiring peningkatan suhu peminjam sepeda meningkat. Jumlah peminjaman paling sedikit terjadi pada suhu yang lebih dingin, yang terjadi selama musim dingin, dan mulai meningkat seiring dengan peningkatan suhu, yang terjadi pada musim panas. Namun, ada "sweet spot" atau kisaran suhu saat jumlah peminjam paling banyak, yaitu antara 20°C dan 30°C. Kisaran suhu ini biasanya terjadi pada musim panas dan musim gugur. Sedangkan untuk kelembaban/humidity terlihat bahwa peminjam paling banyak di antara 40-80 dan seiring peningkatan kelembaban peminjam sepeda semakin berkurang
 5. Jumlah peminjaman jauh lebih tinggi saat cuaca cerah dibandingkan saat kondisi cuaca lebih ekstrem.
 
-## 📊 Dashboard with Streamlit
+## Dashboard with Streamlit
 ### Streamlit Cloud
 Anda dapat melihat Dashboard Streamlit melalui Link berikut: https://bike-sharing-rendy-adiyana-budiman.streamlit.app/
 
