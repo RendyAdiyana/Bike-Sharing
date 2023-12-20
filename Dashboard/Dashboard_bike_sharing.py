@@ -150,7 +150,7 @@ hourly_users_df = create_hourly_users_df(main_df_hour)
 weatherly_users_df = create_weatherly_users_df(main_df_day)
 
 # ----- MAINPAGE -----
-st.title(":bar_chart: Capital Bikeshare: Bike-Sharing Dashboard")
+st.title("Capital Bikeshare: Bike-Sharing Dashboard Rendy Adiyana Budiman")
 st.markdown("##")
 
 col1, col2, col3 = st.columns(3)
@@ -208,11 +208,7 @@ fig = px.line(hourly_users_df,
 st.plotly_chart(fig, use_container_width=True)
 
 fig3 = px.scatter(df_day, x='temp', y='count', color='season', title='Clusters of bikeshare rides count by season and temperature')
-st.plotly_chart(fig3, use_container_width=True)
-
 fig4 = px.scatter(df_day, x='humidity', y='count', color='season', title='Clusters of bikeshare rides count by season and humidity')
-st.plotly_chart(fig4, use_container_width=True)
-
 left_column, right_column = st.columns(2)
 left_column.plotly_chart(fig3, use_container_width=True)
 right_column.plotly_chart(fig4, use_container_width=True)
