@@ -1,18 +1,16 @@
 # Bike-Sharing
-This is a final project from Dicoding in the "Belajar Analisis Data Dengan Python" course to make analysis and create a dashboard from the bike sharing dataset. In the notebook file, I attached the way I did the analysis from Data Wrangling, Exploratory Data Analysis, and Data Visualization.
-
+Berikut ini adalah Final Project dari Dicoding "Belajar Analisis Data Dengan Python" . Pada file Notebook saya telah melampirkan keseluruhan analisa data yang telah saya lakukan mulai dari Data Wrangling, Data Cleaning, Exploitary Data Analysis dan Data Visualization
 
 ## Analysis with Jupyter Notebook
 
-Keseluruhan Detail dan juga Hasil pekerjaan dapat dilihat pada [notebook](https://github.com/RendyAdiyana/Bike-Sharing/blob/main/Bike_Sharing_Data%20Analysis.ipynb) 🚧
+Keseluruhan Detail dan juga Hasil pekerjaan dapat dilihat pada [notebook](https://github.com/RendyAdiyana/Bike-Sharing/blob/main/Bike_Sharing_Data%20Analysis.ipynb) 
+Untuk dapat running Notebook anda dapat mengikuti langkah- langkah berikut:
 
-notebook.ipynb
-Download this project.
-Open your favorite IDE like Jupyter Notebook or Google Colaboratory (but in here I will use Google Colab).
-Create a New Notebook.
-Upload and select the file with .ipynb extension.
-Connect to hosted runtime.
-Lastly, run the code cells.
+Download project ini.
+Buka file IDE seperti VS Code, Jupyter Notebook, atau Google Colaboratory
+Install requirement
+Buka file yang telah di download
+Jalankan coding tersebut
 
 ### Pertanyaan
 1. Bagaimana trend peminjaman sepeda dalam 2 tahun kebelakang?
@@ -30,7 +28,7 @@ Lastly, run the code cells.
 
 ## Dashboard with Streamlit
 ### Streamlit Cloud
-Anda dapat melihat Dashboard Streamlit melalui Link berikut: https://bike-sharing-rendy-adiyana-budiman.streamlit.app/
+Anda dapat melihat Dashboard Streamlit melalui Link berikut: [Dashboard](https://bike-sharing-rendy-adiyana-budiman.streamlit.app/)
 
 Dashboard terrsebut menunjukan jumlah peminjaan sepeda sepanjang tahun dan musim, pada dashboard tersebut juga menunjukan perbedaan antara Casual dan Registered User dalam peminjaman sepeda berdasarkan jam, suhu, dan kelembaban
 
@@ -48,15 +46,22 @@ Dashboard terrsebut menunjukan jumlah peminjaan sepeda sepanjang tahun dan musim
 #### Install Dependencies
 
 Ikuti langkah di bawah ini untuk menjalankan file dashboard
+#### Aktifkan virtual environtment : (Pada project ini menggunakan Anaconda)
+```bash
+conda create --name main-ds python=3.11
+conda activate main-ds
+```
 
+#### Install file requirement
 ```bash
 pip install -r requirements.txt
 ```
+#### Buka file Dashboard_bike_sharing pada VS Code
 
 #### Run Dashboard
 ```bash
-cd dashboard
-streamlit run dashboard.py
+streamlit run [Dashboard_bike_sharing.py]
 ```
+#### Reminder: Pastikan path dashboard tersebut sesuai dengan tempat anda menyimpan file tersebut
 
 Thanks for visiting my project! 🔥
