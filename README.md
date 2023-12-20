@@ -3,7 +3,7 @@ Berikut ini adalah Final Project dari Dicoding "Belajar Analisis Data Dengan Pyt
 
 ## Analysis with Jupyter Notebook
 
-Keseluruhan Detail dan juga Hasil pekerjaan dapat dilihat pada [notebook](https://github.com/RendyAdiyana/Bike-Sharing/blob/main/Bike_Sharing_Data%20Analysis.ipynb) 
+Keseluruhan Detail dan juga Hasil pekerjaan dapat dilihat pada: https://github.com/RendyAdiyana/Bike-Sharing/blob/main/Bike_Sharing_Data%20Analysis.ipynb 
 Untuk dapat running Notebook anda dapat mengikuti langkah- langkah berikut:
 
 Download project ini.
@@ -28,7 +28,7 @@ Jalankan coding tersebut
 
 ## Dashboard with Streamlit
 ### Streamlit Cloud
-Anda dapat melihat Dashboard Streamlit melalui Link berikut: [Dashboard](https://bike-sharing-rendy-adiyana-budiman.streamlit.app/)
+Anda dapat melihat Dashboard Streamlit melalui Link berikut: https://bike-sharing-rendy-adiyana-budiman.streamlit.app/
 
 Dashboard terrsebut menunjukan jumlah peminjaan sepeda sepanjang tahun dan musim, pada dashboard tersebut juga menunjukan perbedaan antara Casual dan Registered User dalam peminjaman sepeda berdasarkan jam, suhu, dan kelembaban
 
