@@ -37,7 +37,7 @@ Lastly, run the code cells.
 
 ## 📊 Dashboard with Streamlit
 ### Streamlit Cloud
-
+View the dashboard on streamlit could directly on this link: https://bike-sharing-rendy-adiyana-budiman.streamlit.app/
 The dashboard shows the count of total rides across the year and season. It also shows the difference casual riders and registered riders use of the bikesharing service, based on hour and day of the week.
 
 <p align="center">
