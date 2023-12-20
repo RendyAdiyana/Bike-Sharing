@@ -28,7 +28,7 @@ Jalankan coding tersebut
 
 ## Dashboard with Streamlit
 ### Streamlit Cloud
-Anda dapat melihat Dashboard Streamlit melalui Link berikut: [Dashboard]([https://github.com/RendyAdiyana/Bike-Sharing/blob/main/Bike_Sharing_Data%20Analysis.ipynb](https://bike-sharing-rendy-adiyana-budiman.streamlit.app/)) 
+Anda dapat melihat Dashboard Streamlit melalui Link berikut: [Dashboard] (https://bike-sharing-rendy-adiyana-budiman.streamlit.app/)
 
 Dashboard terrsebut menunjukan jumlah peminjaan sepeda sepanjang tahun dan musim, pada dashboard tersebut juga menunjukan perbedaan antara Casual dan Registered User dalam peminjaman sepeda berdasarkan jam, suhu, dan kelembaban
 
