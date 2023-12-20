@@ -23,26 +23,27 @@ Lastly, run the code cells.
 5. Apakah cuaca mempengaruhi peminjaman sepeda?
 
 ### Insights and Findings
-1. The number of bikeshare rides in 2012 was higher than in 2011. Both years showed the same trend and seasonality, with the number of rides increasing in the middle of the year and decreasing at the beginning and end of the year.
-
-2. For registered users, the number of rides peaked at 8:00 AM and 5:00 PM, suggesting that they may have used the bikes to commute to work. For casual users, the number of rides started to increase during the day and decreased during the night.
-
-3. Bikeshare rides were highest during the summer season and lowest during the winter season.
-
-4. For registered users, the number of rides was higher during weekdays. This is consistent with the findings in question 2, suggesting that registered users likely used the bikes to commute to work. For casual users, the number of rides was higher on weekends than on weekdays, indicating that they used the bikes for leisure activities on weekends.
-
-5. Yes, there is a moderate correlation between temperature and the number of bikeshare rides. The number of rides is lowest at colder temperatures, which occur during the winter, and starts to increase as the temperature increases, which happens in the summer. However, there is a "sweet spot" or temperature range when the number of rides is highest, which is between 20°C and 30°C. This temperature range typically occurs during the summer and fall seasons. On days with these temperature conditions, we can expect the number of bikeshare rides to be high.
-
-6. Yes, the number of rides is significantly higher during clear weather than during more extreme weather conditions.
+1.Jumlah perjalanan bikeshare pada tahun 2012 lebih tinggi dibandingkan tahun 2011. Kedua tahun tersebut menunjukkan tren dan musim yang sama, dengan jumlah perjalanan meningkat pada pertengahan tahun dan menurun pada awal dan akhir tahun.
+2. Pada registered users, jumlah perjalanan mencapai puncaknya pada pukul 08.00 dan 17.00, yang menunjukkan bahwa mereka mungkin menggunakan sepeda untuk berangkat kerja. Sedangkan casual users, jumlah perjalanan mulai meningkat pada siang hari dan menurun pada malam hari.
+3.Jumlah perjalanan bikeshare tertinggi terjadi pada musim panas dan terendah pada musim dingin.
+4. Terdapat korelasi antara suhu dan jumlah perjalanan bikeshare dimana seiring peningkatan suhu peminjam sepeda meningkat. Jumlah peminjaman paling sedikit terjadi pada suhu yang lebih dingin, yang terjadi selama musim dingin, dan mulai meningkat seiring dengan peningkatan suhu, yang terjadi pada musim panas. Namun, ada "sweet spot" atau kisaran suhu saat jumlah peminjam paling banyak, yaitu antara 20°C dan 30°C. Kisaran suhu ini biasanya terjadi pada musim panas dan musim gugur. Sedangkan untuk kelembaban/humidity terlihat bahwa peminjam paling banyak di antara 40-80 dan seiring peningkatan kelembaban peminjam sepeda semakin berkurang
+5. Jumlah peminjaman jauh lebih tinggi saat cuaca cerah dibandingkan saat kondisi cuaca lebih ekstrem.
 
 ## 📊 Dashboard with Streamlit
 ### Streamlit Cloud
+Anda dapat melihat Dashboard Streamlit melalui Link berikut: https://bike-sharing-rendy-adiyana-budiman.streamlit.app/
 
-The dashboard shows the count of total rides across the year and season. It also shows the difference casual riders and registered riders use of the bikesharing service, based on hour and day of the week.
+Dashboard terrsebut menunjukan jumlah peminjaan sepeda sepanjang tahun dan musim, pada dashboard tersebut juga menunjukan perbedaan antara Casual dan Registered User dalam peminjaman sepeda berdasarkan jam, suhu, dan kelembaban
 
 <p align="center">
-  <img src="/image/streamlit_dashboard.png" />
-
+  <img src="/Images/Streamlit_DB 1.png" />
+<p align="center">
+  <img src="/Images/Streamlit_DB 2.png" />
+<p align="center">
+  <img src="/Images/Streamlit_DB 3.png" />
+<p align="center">
+  <img src="/Images/Streamlit_DB 4.png" />
+  
 ### Run Streamlit on Local
 
 #### Install Dependencies
