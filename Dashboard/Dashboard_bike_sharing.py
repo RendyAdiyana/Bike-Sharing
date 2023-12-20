@@ -111,7 +111,8 @@ with st.sidebar:
     st.image("https://raw.githubusercontent.com/RendyAdiyana/Bike-Sharing/main/Images/pngwing.com.png")
 
     st.sidebar.header("Filter:")
-
+    
+    
     # mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label="Date Filter", min_value=min_date,
@@ -216,7 +217,7 @@ left_column, right_column = st.columns(2)
 left_column.plotly_chart(fig3, use_container_width=True)
 right_column.plotly_chart(fig4, use_container_width=True)
 
-st.caption('Copyright (c), created by Rendy Adiyana Budiman')
+st.caption('Copyright (c), Created by Rendy Adiyana Budiman')
 
 # ----- HIDE STREAMLIT STYLE -----
 hide_st_style = """
