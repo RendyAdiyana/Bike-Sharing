@@ -14,15 +14,15 @@ Jalankan coding tersebut
 
 ### Pertanyaan
 1. Bagaimana trend peminjaman sepeda dalam 2 tahun kebelakang?
-2. Apakah ada jam tertentu dimana peminjama sepeda naik?
+2. Apakah ada jam tertentu dimana peminjaman sepeda naik?
 3. Apa musim yang memiliki peminjam sepeda terbanyak?
 4. Apakah ada korelasi antara suhu dan kelembaban dengan jumlah peminjaman sepeda?
 5. Apakah cuaca mempengaruhi peminjaman sepeda?
 
 ### Insights and Findings
-1.Jumlah perjalanan bikeshare pada tahun 2012 lebih tinggi dibandingkan tahun 2011. Kedua tahun tersebut menunjukkan tren dan musim yang sama, dengan jumlah perjalanan meningkat pada pertengahan tahun dan menurun pada awal dan akhir tahun.
+1. Jumlah total peminjaman bikeshare pada tahun 2012 lebih tinggi dibandingkan tahun 2011. Kedua tahun tersebut menunjukkan tren dan musim yang sama, dengan jumlah perjalanan meningkat pada pertengahan tahun dan menurun pada awal dan akhir tahun.
 2. Pada registered users, jumlah perjalanan mencapai puncaknya pada pukul 08.00 dan 17.00, yang menunjukkan bahwa mereka mungkin menggunakan sepeda untuk berangkat kerja. Sedangkan casual users, jumlah perjalanan mulai meningkat pada siang hari dan menurun pada malam hari.
-3.Jumlah perjalanan bikeshare tertinggi terjadi pada musim panas dan terendah pada musim dingin.
+3. Jumlah perjalanan bikeshare tertinggi terjadi pada musim panas dan terendah pada musim dingin.
 4. Terdapat korelasi antara suhu dan jumlah perjalanan bikeshare dimana seiring peningkatan suhu peminjam sepeda meningkat. Jumlah peminjaman paling sedikit terjadi pada suhu yang lebih dingin, yang terjadi selama musim dingin, dan mulai meningkat seiring dengan peningkatan suhu, yang terjadi pada musim panas. Namun, ada "sweet spot" atau kisaran suhu saat jumlah peminjam paling banyak, yaitu antara 20°C dan 30°C. Kisaran suhu ini biasanya terjadi pada musim panas dan musim gugur. Sedangkan untuk kelembaban/humidity terlihat bahwa peminjam paling banyak di antara 40-80 dan seiring peningkatan kelembaban peminjam sepeda semakin berkurang
 5. Jumlah peminjaman jauh lebih tinggi saat cuaca cerah dibandingkan saat kondisi cuaca lebih ekstrem.
 
