@@ -6,8 +6,8 @@ import streamlit as st
  
 # load dataset
 
-df_day = pd.read_csv('C:\\Users\\andhika\\Documents\\GitHub\\assets\\analisis-data\\cleaned_bikeshare_day.csv')
-df_hour = pd.read_csv('C:\\Users\\andhika\\Documents\\GitHub\\assets\\analisis-data\\cleaned_bikeshare_hour.csv')
+df_day = pd.read_csv("https://raw.githubusercontent.com/RendyAdiyana/Bike-Sharing/main/Dashboard/cleaned_bikeshare_day.csv")
+df_hour = pd.read_csv("https://raw.githubusercontent.com/RendyAdiyana/Bike-Sharing/main/Dashboard/cleaned_bikeshare_hour.csv")
 df_day['date'] = pd.to_datetime(df_day['date'])
 df_hour['date'] = pd.to_datetime(df_hour['date'])
 st.set_page_config(page_title="Capital Bikeshare: Bike-sharing Dashboard",
@@ -108,7 +108,7 @@ max_date = df_day["date"].max()
 
 with st.sidebar:
     # add capital bikeshare logo
-    st.image("C:\\Users\\andhika\\Documents\\GitHub\\assets\\analisis-data\\New folder\\Images\\pngwing.com.png")
+    st.image("https://raw.githubusercontent.com/RendyAdiyana/Bike-Sharing/main/Images/pngwing.com.png")
 
     st.sidebar.header("Filter:")
 
